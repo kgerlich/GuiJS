@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<script type="text/javascript" src="gui.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<link rel="stylesheet" type="text/css" href="gui-window.css">
+<html>
+    <body>
+        <div id="anchor">
+            <div gui-window="window1 - eine APP">
+                <gui-window-menu name="File">
+                    <gui-window-menu-entry name="Exit"></gui-window-menu-entry>
+                </gui-window-menu>
+                <gui-window-menu name="Help">
+                        <gui-window-menu-entry name="About"></gui-window-menu-entry>
+                </gui-window-menu>
+                <div class="gui-container">
+                    <a>{{ bugger }}</a>
+                    <div>
+                        <p style="color: {{ color }}">{{ getter }}</p>
+                        <div>
+                            <p style="color: [[ color ]]">{{ getter }}</p>
+                            <p>This is anohter {{ bugger }} {{ getter }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div gui-window="window2">
+                <div class="gui-container">
+                </div>
+            </div>
+
+            <div gui-window="window3">
+                <div class="gui-container">
+                    <p>{{ hello }}</p>
+                    <a>{{ getter }}</a>
+                </div>
+            </div>
+
+            <div gui-window="window4">
+                <div class="gui-container">
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>

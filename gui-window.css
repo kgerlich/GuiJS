@@ -1,0 +1,71 @@
+.gui-window {
+    position: absolute; /* Stay in place */
+    /* overflow: auto; Enable scroll if needed */
+    background-color: lightgray;
+    border: 1px solid gray;
+    opacity: 0.97;
+    box-shadow: 1px 1px 1px gray;
+    overflow: hidden;
+}
+
+.gui-container {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+}
+
+.gui-window-title {
+    background-color: gray;
+    border: 2px solid ltgray;
+    border-bottom: 2px double white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
+
+.gui-window-menu {
+    background-color: #eee;
+    border-bottom: 1px solid #aaaaaa;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    height: 14px;
+}
+
+.gui-window-menu-text {
+    background-color: #eee;
+    color: black;
+    float: left;
+    border-right:1px dashed gray;
+}
+
+.gui-window-menu-text:hover { 
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.gui-window-dropdown {
+    background-color: #eee;
+    border-left: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.gui-window-sizer {
+    background-color: red;
+}
+
+#anchor {
+    background-color: #D0D0F0;
+    border: 1px solid lightgray;
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px gray;
+}
